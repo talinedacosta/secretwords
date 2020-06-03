@@ -2,12 +2,19 @@
   <section id="start">
     <h1>Palavras Secretas</h1>
     <p>com VUE</p>
-    <button>Começar</button>
+    <button @click.prevent="goToGame">Começar</button>
   </section>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Start",
+  methods: {
+    goToGame() {
+      this.$router.push("/game");
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>
