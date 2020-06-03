@@ -1,4 +1,5 @@
 # secretwords
+<<<<<<< HEAD
 
 ## Project setup
 ```
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+Secret Word game with VUE. 
+>>>>>>> fe7b8a45474f12c396be4bc2c0759bede0db17be
